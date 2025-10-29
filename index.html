@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Abitare con Martin</title>
+  </head>
+  <body>
+    <header>
+      <h1>Abitare con Martin</h1>
+      <p>
+        Grazie mille per decidere di abitare con Martin Enrique Vismara
+      </p>
+    </header>
+    <main>
+      <form action="https://formspree.io/f/TU_ID" method="POST">
+  <input name="name">
+  <input type="submit">
+
+  
+        <fieldset>
+          <legend>Informazione personale</legend>
+          <label for="full-name">Nome (requerimento):</label>
+          <input type="text" id="full-name" name="name" placeholder="Justus Heiffensenagger" required size="20">
+
+          <label for="email">Email (requerimento):</label>
+          <input
+            placeholder="example@email.com"
+            required
+            id="email"
+            type="email"
+            name="email"
+            size="20"
+          />
+          <label for="age">Etá (opzionale):</label>
+          <input type="number" name="age" id="age" min="3" max="100" />
+        </fieldset>
+
+        <fieldset>
+          <legend>É la prima volta che abita con Martin?</legend>
+         <input id="yes-option" type="radio" name="hotel-stay" value="yes" />
+<label for="yes-option">Si</label>
+<input id="no-option" type="radio" name="hotel-stay" value="no" />
+<label for="no-option">No</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>
+            Perché ha deciso di abitare con lui? (Mettere tutti quanto corrisponda)
+          </legend>
+
+          <input type="checkbox" id="ads" name="ads" value="ads" />
+          <label for="ads">Tenero</label>
+
+          <input
+            type="checkbox"
+            id="recommendation"
+            name="recommendation"
+            value="recommendation"
+          />
+          <label for="recommendation">Serviziale</label>
+          
+          <input type="checkbox" id="location" name="location" value="location" />
+          <label for="location">Amoroso</label>
+
+          <input
+            checked
+            type="checkbox"
+            id="reputation"
+            name="reputation"
+            value="reputation"
+          />
+          <label for="reputation">ha la pija grande</label>
+          <input type="checkbox" id="price" name="price" value="price" />
+          <label for="price">Price</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Ratings</legend>
+
+          <label for="service">Com´é abitare insieme?</label>
+
+          <select name="service" id="service">
+            <option value="poor">una verga</option>
+            <option value="satisfactory">safa</option>
+            <option value="good">buono</option>
+            <option value="very-good">buonissimo</option>
+            <option selected value="excellent">magnifico</option>
+          </select>
+
+          <label for="food">Come cucina?</label>
+
+          <select name="food" id="food">
+            <option value="poor">una verga</option>
+            <option value="satisfactory">safa</option>
+            <option value="good">buono</option>
+            <option value="very-good">molto Good</option>
+            <option selected value="excellent">é Rasch</option>
+          </select>
+        </fieldset>
+
+        <label for="comments">hai qualche commento?</label>
+        <textarea cols="30" rows="10" name="comments" id="comments"></textarea>
+        <button type="submit">Enviare</button>
+        </form>
+    </main>
+  </body>
+</html>
